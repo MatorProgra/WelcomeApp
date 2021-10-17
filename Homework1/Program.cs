@@ -6,7 +6,6 @@ namespace Homework1
 	{
 		static void Main(string[] args)
 		{
-
 			Console.Write("Podaj swoje imie: ");
 			string name = Console.ReadLine();
 
@@ -55,9 +54,6 @@ namespace Homework1
 			return day;
 		}
 
-		private static void ErrorMessage()
-		{
-			Console.Write("Error! Nieprawidłowe dane! Wpisz jeszcze raz: ");
-		}
+		private static void ErrorMessage() => Console.Write("Error! Nieprawidłowe dane! Wpisz jeszcze raz: ");
 	}
 }
